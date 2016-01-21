@@ -1,0 +1,35 @@
+<!-- Test data for testing XSLTMultiword.xslt The following fields should change on output:
+
+<StreetName>Singing Wind</StreetName> becomes <StreetName>Singing</StreetName><StreetName>Wind</StreetName>
+<StreetNamePreTypeSeparator>of the</StreetNamePreTypeSeparator> becomes <StreetNamePreTypeSeparator>of</StreetNamePreTypeSeparator><StreetNamePreTypeSeparator>the</StreetNamePreTypeSeparator>
+<PlaceName>Fuquay Varina</PlaceName>  becomes <PlaceName>Fuquay</PlaceName><PlaceName>Varina</PlaceName>
+<StateName>North Carolina</StateName> becomes <StateName>North</StateName><StateName>Carolina</StateName>
+
+
+Copyright January 2016 Spatial Focus LLC
+
+This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+-->
+
+<AddressCollection>
+
+<AddressString><AddressNumber>5104</AddressNumber><StreetName>Singing Wind</StreetName><StreetNamePostType>Dr</StreetNamePostType><PlaceName>Raleigh</PlaceName><StateName>NC</StateName></AddressString>
+<AddressString><AddressNumber>5708</AddressNumber><StreetName>Cameo Glass</StreetName><StreetNamePostType>Way</StreetNamePostType><PlaceName>Raleigh</PlaceName><StateName>NC</StateName></AddressString>
+<AddressString><AddressNumber>219</AddressNumber><StreetNamePreDirectional>W</StreetNamePreDirectional><StreetName>North</StreetName><StreetNamePostType>St</StreetNamePostType><PlaceName>Raleigh</PlaceName><StateName>NC</StateName></AddressString>
+<AddressString><AddressNumberPrefix>EN-</AddressNumberPrefix><AddressNumber>1</AddressNumber><StreetNamePreDirectional>W</StreetNamePreDirectional><StreetName>South</StreetName><StreetNamePostType>St</StreetNamePostType><PlaceName>Raleigh</PlaceName><StateName>NC</StateName></AddressString>
+<AddressString><AddressNumber>324</AddressNumber><StreetNamePreType>Avenue</StreetNamePreType><StreetNamePreTypeSeparator>of the</StreetNamePreTypeSeparator><StreetName>Americas</StreetName><PlaceName>Albertson</PlaceName><StateName>Iowa</StateName><ZipCode>32499</ZipCode></AddressString>
+<AddressString><AddressNumber>2601</AddressNumber><StreetName>Folk</StreetName><StreetNamePostType>Ln</StreetNamePostType><PlaceName>Raleigh</PlaceName><StateName>NC</StateName></AddressString>
+<AddressString><AddressNumberPrefix>EC/</AddressNumberPrefix><AddressNumber>329</AddressNumber><StreetName>Folk Stone</StreetName><StreetNamePostType>Ter</StreetNamePostType><PlaceName>Fuquay Varina</PlaceName><StateName>North Carolina</StateName></AddressString>
+</AddressCollection>
